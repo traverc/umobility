@@ -93,8 +93,8 @@ void setup() {
   }
 
   if (JOYSTICK_ANALOG || JOYSTICK_DIGITAL) {
-    pinMode(JOYSTICK_X, OUTPUT);
-    pinMode(JOYSTICK_Y, OUTPUT);
+    pinMode(JOYSTICK_X, INPUT);
+    pinMode(JOYSTICK_Y, INPUT);
   }
 
   if (ABILITY_SWITCHES) {
